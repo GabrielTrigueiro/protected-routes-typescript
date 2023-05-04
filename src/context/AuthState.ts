@@ -2,7 +2,7 @@
  * This represents some generic auth provider API, like Firebase.
  */
 
-const fakeAuthProvider = {
+export const fakeAuthProvider = {
     isAuthenticated: false,//mudar aqui o estado de logado ou não
     signin(callback: VoidFunction) {
       fakeAuthProvider.isAuthenticated = true;
@@ -13,5 +13,3 @@ const fakeAuthProvider = {
       setTimeout(callback, 100);
     },
   };
-  
-  export { fakeAuthProvider };
