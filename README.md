@@ -1,5 +1,5 @@
 # protected-routes-typescript
-<p>Sistema básico de autentcição que não permite acessar páginas protegidas caso não esteja logado.</p>
+<p>Sistema básico de autenticação que não permite acessar páginas protegidas caso não esteja logado.</p>
 
 <h1>Home Page</h1>
 <p>Esta é a página inicial que mostra as opções de páginas possíveis</p>
